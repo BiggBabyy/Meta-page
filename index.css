@@ -468,5 +468,43 @@ nav{
     }
 
     }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .socials{
+        /* width: 40%; */
+        display: flex;
+        flex-direction: column;
+        .logss{
+            margin-bottom: 30px;
+        }
+        .soc{
+            display: flex;
+            /* justify-content: space-between; */
+            gap: 20px;
+        }
+    }
+    .metastore{
+        display: flex;
+        flex-direction: column;
+        /* width: 30px; */
+        gap: 10px;
+        h5{
+            font-size: 17px;
+            color: #465a69;
+        }
+        a{
+           color: #465a69;
+            text-decoration: none;
+        }
+    }
+    .Storesupport{
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
 
 
