@@ -328,7 +328,7 @@ nav{
     /* background-color: grey; */
     width: 100%;
     height: 100vh;
-    margin-top: 200px;
+    margin-top: 400px;
     display: flex;
     /* flex-direction: row; */
     justify-content:  space-between;
@@ -410,23 +410,26 @@ nav{
 
 .sixthp{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* text-align: left; */
     width: 100%;
-    padding: 0 150px;
+    padding: 0 100px;
     margin: 100px auto;
-    /* gap: 115px; */
+    gap: 110px;
 
 }
 
 .mark{
-    width: 50%;
-    /* height: 580px; */
-    overflow: hidden;
+    width: 60%;
+    /* background-color: blue; */
+    height: 580px;
+    /* overflow: hidden; */
     border-radius: 30px;
     margin-bottom: 100px;
     img {
         width: 100%;
+        height: 90%;
         /* object-fit: cover; */
         /* width: 100%; */
         margin: 0 auto;
@@ -435,16 +438,19 @@ nav{
 
 .test{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
     width: 40%;
+    /* text-align:left ; */
+    /* background-color: red; */
     /* flex: 1; */
     
     h3{
         font-size: 36px;
         color: rgb(28,43,51);
         line-height: 40px;
+        text-align: left;
         /* width: 500px; */
     }
 
@@ -452,7 +458,7 @@ nav{
         font-size: 18px;
         color: rgb(28,43,51);
         line-height: 27px;
-        /* width: 400px; */
+        width: 400px;
         margin: 20px auto;
     }
 
@@ -463,6 +469,7 @@ nav{
         background-color: #0050B3;
         color: white;
         font-weight: bold;
+        width: 250px;
 
 
     }
@@ -474,7 +481,8 @@ nav{
         padding: 0 50px;
     }
     .socials{
-        /* width: 40%; */
+        width: 30%;
+        /* background-color: #0050B3; */
         display: flex;
         flex-direction: column;
         .logss{
@@ -483,7 +491,7 @@ nav{
         .soc{
             display: flex;
             /* justify-content: space-between; */
-            gap: 20px;
+            gap: 40px;
         }
     }
     .metastore{
@@ -492,12 +500,17 @@ nav{
         /* width: 30px; */
         gap: 10px;
         h5{
-            font-size: 17px;
+            font-size: 15px;
             color: #465a69;
         }
         a{
            color: #465a69;
             text-decoration: none;
+            font-size: 14px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: #0064e0;
         }
     }
     .Storesupport{
